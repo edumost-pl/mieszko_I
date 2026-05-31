@@ -182,7 +182,7 @@ if(!progressBar || !progressText){
     return;
 }
 
-const totalSlides = 16;
+const totalSlides = 20;
 
 const percent =
     ((currentSlide - 1) / (totalSlides - 1))
