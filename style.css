@@ -20,7 +20,11 @@ margin:auto;
 }
 
 .hero{
-background:linear-gradient(135deg,#3aa655,#5ec96f);
+background:linear-gradient(
+135deg,
+#b4661e,
+#c18d57
+);
 color:white;
 padding:100px 20px;
 text-align:center;
@@ -64,14 +68,14 @@ border:none;
 border-radius:12px;
 /* background:white;
 color:#3aa655; */
-background:#3aa655;
+background:#b16721;
 color:white;
 font-weight:700;
 cursor:pointer;
 text-decoration:none;
 }
 .btn:hover{
-    background:#116326;
+    background:#ab590c;
     color:white;
     scale: 0.9;
 }
