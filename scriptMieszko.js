@@ -266,3 +266,21 @@ document.addEventListener(
 "DOMContentLoaded",
 updateProgress
 );
+
+// UA
+const translateBtn = document.getElementById('translateBtn');
+const translations = document.querySelectorAll('.ua');
+
+let translationsVisible = false;
+
+translateBtn.addEventListener('click', () => {
+    translationsVisible = !translationsVisible;
+
+    translations.forEach(item => {
+        item.style.display = translationsVisible ? 'block' : 'none';
+    });
+
+    translateBtn.textContent = translationsVisible
+        ? '🇵🇱 Ukryj tłumaczenie'
+        : '🇺🇦 Pokaż tłumaczenie';
+});
