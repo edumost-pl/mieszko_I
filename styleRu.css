@@ -32,8 +32,23 @@
 /* Для планшета/телефона */
 @media (max-width: 768px) {
     .ru-btn {
-        font-size: 22px;
-        padding: 12px 22px;
+        /* font-size: 22px;
+        padding: 12px 22px; */
+        display:block;
+        width:auto;
+
+        min-width:120px;
+
+        margin:20px auto;
+
+        padding:8px 10px;
+
+        font-size:18px;
+        font-weight:700;
+
+        border-radius:16px;
+
+        box-shadow:0 4px 0 #3567c9;
     }
 }
 
