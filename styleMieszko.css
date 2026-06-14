@@ -32,6 +32,14 @@ padding:30px 20px 80px;
     color: #2d6e04;
     font-size: 20px;
 }
+h1{
+    font-family: "Cinzel", serif;
+    color: #8b3f00;
+    text-shadow: 1px 1px 0 rgba(47, 47, 49, 0.4);
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 2.5rem;
+}
 h2{
      font-family: "Cinzel", serif;
     color: #8b4513;
@@ -52,7 +60,7 @@ h4{
 }
 h5{
     margin-top: 20px;
-    color: rgb(55, 196, 4);
+    color: #615e5e;;
     font-size: 22px;
     text-align: center;
 }
@@ -61,6 +69,11 @@ h6{
     color: rgb(222, 22, 4);
     font-size: 20px;
     text-align: center;
+}
+.p24{
+    font-size: 1.4rem;
+    text-align: center;
+    color: #615e5e;;
 }
 .red{
     color: red;
@@ -232,6 +245,7 @@ box-shadow:
     box-shadow:0 8px 20px rgba(0,0,0,.08);
 }
 
+
 .lesson-block button{
     margin: 0 ;
 }
@@ -251,7 +265,7 @@ margin-bottom:20px;
 
 .lesson-block p{
 margin-bottom:15px;
-font-size:1.1rem;
+font-size:1.2rem;
 margin-left: 5%;
 }
 
@@ -270,18 +284,35 @@ margin-left: 5%;
     flex:1;
 }
 .quiz-image{
-    width:50%;
+    width:36%;
     max-width:800px;
 
     height:auto;
 
     display:block;
-    margin:auto;
+    margin:3% auto;
     border-radius: 25px;
 }
 .quiz-image img{
     width: 100%;
     border-radius: 25px;
+    opacity: 86%;
+}
+/*  */
+.images{
+    width:36%;
+    max-width:800px;
+
+    height:auto;
+
+    display:block;
+    margin:3% auto;
+    border-radius: 25px;
+}
+.images img{
+    width: 100%;
+    border-radius: 25px;
+    opacity: 98%;
 }
 .zume{
     width:100%;
@@ -678,22 +709,34 @@ margin-top: 25px;
 
 .answers button{
     background:white;
-    border:3px solid #af904c;
+    border:3px solid #b7923a;
     color:#2c3e50;
-    font-size:1.1rem;
+    font-size:1.4rem;
     font-weight:600;
     padding:8px 16px;
     border-radius:15px;
     cursor:pointer;
     transition:all .25s ease;
-    box-shadow:0 4px 10px rgba(0,0,0,.08);
+    box-shadow:
+        0 4px 20px #8d6c1f,
+        0 8px 16px rgba(0,0,0,0.12);
+    transition: all 0.2s ease;
 }
 
 .answers button:hover{
-    transform:translateY(-3px);
-    background:#af904c;
-    color:white;
-    box-shadow:0 14px 30px rgba(175, 145, 76, 0.3);
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 6px 0 #8d6c1f,
+        0 12px 20px rgba(0,0,0,0.15);
+}
+
+.answers button:active {
+    transform: translateY(3px);
+
+    box-shadow:
+        0 1px 0 #8d6c1f,
+        0 3px 6px rgba(0,0,0,0.12);
 }
 
 .taskResult{
